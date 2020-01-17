@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body align = "center">
+
+	<h2> Add new Employee Details </h2>
+
+	<form action="AddServlet" method="post">
+	<input type="hidden" name="methodToCall" value="addEmployee"/>
+	<table>
+	<tr>
+		<td>Employee ID: </td>
+		<td> <input type="text" name="employeeId" /> </td>
+	</tr>
+	<tr>
+		<td>Employee Name: </td>
+		<td> <input type="text" name="employeeName" /> </td>
+	</tr>
+	<tr>
+		<td> Profile: </td>
+		<td> <input type="text" name="profile" /> </td>
+	</tr>	
+	<tr>
+		<td> <input type="submit" value="Submit" /> </td>
+		<td> <input type="reset" value="Reset" /> </td>
+	</tr>
+	
+</table>
+</body>
+</html>
